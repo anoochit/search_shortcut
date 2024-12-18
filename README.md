@@ -1,6 +1,6 @@
 # Search with Shotcut key
 
-A sample desktop app with shotcut key to open search dialog.
+A sample desktop app with shotcut key Ctrl+K to open search dialog.
 
 
 ### Screenshots
