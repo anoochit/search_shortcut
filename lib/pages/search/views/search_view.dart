@@ -8,8 +8,18 @@ class SearchView extends GetView<SearchController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         title: const Text('SearchView'),
-        centerTitle: true,
+        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        actions: [
+          Padding(
+            padding: const EdgeInsets.all(4.0),
+            child: IconButton.filledTonal(
+              onPressed: () => Get.back(),
+              icon: Icon(Icons.close),
+            ),
+          )
+        ],
       ),
       body: const Center(
         child: Text(
